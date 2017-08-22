@@ -11,4 +11,11 @@ int main(){
   std::cout << "Hello, " << name << std::endl;
 
   std::cout << "How are you?" << std::endl;
+
+  std::string value;
+  std::cin >> value;
+
+  if(value == "nice"){
+    std::cout << "Wow, I'm too" << std::endl;
+  }
 }
